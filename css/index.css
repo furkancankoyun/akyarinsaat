@@ -1,0 +1,475 @@
+html,
+body,
+
+#cover{
+   height: 100%; 
+}
+
+#cover{
+    background: url('../img/../img/jon-flobrant-193461-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.fixed-top{
+    max-width: 1140px;
+    margin: 20px auto;
+}
+
+h1{
+    margin-top: 20%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+
+.btn-danger{
+    background-color: #c72836;
+    border-style: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 40px;
+}
+
+.btn-danger:hover{
+    background-color: #FFFFFF;
+    color:#c72836;
+}
+
+a.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #000 !important;
+    transition: color 0.5s ease;
+}
+
+a.nav-link:hover{
+    color: #C72836  !important;
+}
+
+#Hizmetler{
+    padding: 120px 0;
+    height: 500px;
+  
+}
+
+.Hizmetler-top h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.Hizmetler-top p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #777;
+    margin-bottom: 70px;
+}
+
+#Buton{
+    width: 100px;
+    height: 100px;
+    background-color:#c72836;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    margin: 100px auto;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#Buton p{
+    color: #FFF9F9;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+#Buton:hover{
+    cursor: pointer;
+}
+
+#buton1{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #c72836;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 20%;
+    margin: 100px auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+@keyframes dalga {
+    from{
+      transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0;
+    }
+    
+    to {
+     transform: translate(-50%, -50%) scale(2);   
+    }
+}
+
+#Buton:hover,#buton1{
+    animation: dalga 1s infinite linear;
+    
+}
+
+#Buton a{
+    text-decoration: none;
+}
+
+#Buton-1{
+    width: 100px;
+    height: 100px;
+    background-color:#c72836;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    margin: 100px auto;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#Buton-1 p{
+    color: #FFF9F9;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+#Buton-1:hover{
+    cursor: pointer;
+}
+
+#buton-2{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #c72836;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 20%;
+    margin: 100px auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+@keyframes dalga {
+    from{
+      transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0;
+    }
+    
+    to {
+     transform: translate(-50%, -50%) scale(2);   
+    }
+}
+
+#Buton-1:hover,#buton-2{
+    animation: dalga 1s infinite linear;
+    
+}
+
+#Buton-1 a{
+    text-decoration: none;
+}
+
+#Buton7{
+    width: 100px;
+    height: 100px;
+    background-color:#c72836;
+    border-radius: 50%;
+    top: 20%;
+    position: absolute;
+    margin: 100px auto;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#Buton7 p{
+    color: #FFF9F9;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+#Buton7:hover{
+    cursor: pointer;
+}
+
+#buton8{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #c72836;
+    border-radius: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    top: 20%;
+    margin: 100px auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+@keyframes dalga {
+    from{
+      transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0;
+    }
+    
+    to {
+     transform: translate(-50%, -50%) scale(2);   
+    }
+}
+
+#Buton7:hover,#buton8{
+    animation: dalga 1s infinite linear;
+    
+}
+
+#Buton7 a{
+    text-decoration: none;
+}
+
+#Buton4{
+    width: 100px;
+    height: 100px;
+    background-color:#c72836;
+    border-radius: 50%;
+    top: 20%;
+    position: absolute;
+    margin: 100px auto;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#Buton4 p{
+    color: #FFF9F9;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+#Buton4:hover{
+    cursor: pointer;
+}
+
+#buton5{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #c72836;
+    position: absolute;
+    border-radius: 50%;
+    box-sizing: border-box;
+    top: 20%;
+    margin: 100px auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+@keyframes dalga {
+    from{
+      transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0;
+    }
+    
+    to {
+     transform: translate(-50%, -50%) scale(2);   
+    }
+}
+
+#Buton4:hover,#buton5{
+    animation: dalga 1s infinite linear;
+    
+}
+
+#Buton4 a{
+    text-decoration: none;
+}
+
+
+#Portfolio{
+    background-color: #f7f7f7;
+    padding-top: 120px;
+    padding-bottom: 70px;
+}
+
+.portfolio-top h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    
+}
+
+.portfolio-top p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    color: #777;
+    margin-bottom: 70px;
+}
+
+.card{
+    border-style: none;
+    
+}
+
+.portfolio-content .row{
+    margin-bottom: 50px;
+}
+
+.card-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.portfolio-content  .card-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+}
+
+
+.about-content img {
+  border-radius: 60%;
+  display: block;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#about{
+    padding-top: 120px;
+    padding-bottom: 30px;
+    
+}
+
+.about-top h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    
+}
+
+.about-top p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    color: #777;
+    margin-bottom: 70px;
+}
+
+.about-content .row{
+    margin-bottom: 100px;
+}
+
+.about-content p{
+    font-family: 'Roboto', sans-serif;
+    font-display: 14px;
+    color: #777;
+}
+
+.about-circle{
+    position: relative;
+}
+
+.about-circle:before{
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 170px;
+    height: 170px;
+    background-color: #fed136;
+    border-radius: 170px;
+    border: 8px solid #f1f1f1;
+    left: 50%;
+    margin-left: -91px;
+}
+
+.about-circle .yellow-text{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding-top: 40px;
+     line-height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    
+}
+
+#team{
+    padding-top: 120px;
+    background-color: #f9f9f9;
+}
+
+.team-top h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.team-top p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #777;
+    margin-bottom: 70px;
+}
+
+.team-circle{
+    width: 220px;
+    height: 220px;
+    background-color: #000;
+    border-radius: 220px;
+    margin: 0 auto;
+    border: 6px solid #fff;
+    margin-bottom: 20px;
+    padding: 50px;
+    color: #fff;
+    
+}
+
+.team-content h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.team-content h5{
+    font-family: 'Montserrat', sans-serif;
+    font-display: 14px;
+    color: #777;
+}
+
+.team-content p{
+    margin:50px auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #777;
+}
